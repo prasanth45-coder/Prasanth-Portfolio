@@ -16,7 +16,7 @@ const HeroSection = () => {
     "Frontend Developer",
     "Data Analyst",
     "Full Stack Developer",
-    "Programmer"
+    "Programmer",
   ];
   
   const typingRef = useRef(null);
