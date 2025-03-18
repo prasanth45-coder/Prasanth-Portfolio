@@ -23,7 +23,8 @@ const HeroSection = () => {
 
   useEffect(() => {
     const img = new Image();
-    img.src = 'public/lovable-uploads/pro.png';
+    img.src = 'lovable-uploads/pro.png';
+    // img.src = 'public/lovable-uploads/pro.png';
     img.onload = () => setIsImageLoaded(true);
     
     // Show welcome animation after a delay

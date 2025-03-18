@@ -83,8 +83,8 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-  },
-  "description": "**URL**: https://lovable.dev/projects/bd4f366b-aa11-462e-8cc5-36180c14346f",
+  },  "description": "Prasanth Project - Portfolio Website",
+  
   "main": "eslint.config.js",
   "keywords": [],
   "author": "",

@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/Prasanth-Portfolio/",  // <-- This is CRUCIAL for GitHub Pages
+  base: "/", // ✅ IMPORTANT: Your GitHub repo name
   server: {
     host: "::",
     port: 8080,
