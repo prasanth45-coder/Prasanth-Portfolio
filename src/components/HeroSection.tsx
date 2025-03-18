@@ -1,7 +1,7 @@
 
 import { ArrowDown } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
-// import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+// import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";~
 
 const HeroSection = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
@@ -129,7 +129,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] border-4 border-highlight p-2 hexagon-clip bg-card shadow-xl overflow-hidden" style={{opacity: 1}}>
               <img 
-                src="public\lovable-uploads\pro.png" 
+                src="lovable-uploads\pro.png" 
                 alt="Prasanth" 
                 className={`w-full h-full object-cover transition-all duration-500 ${isImageLoaded ? 'image-loaded' : 'image-loading'}`}
               />
